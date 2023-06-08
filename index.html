@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hubsensee</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" font-alice">
+
+  <header class="bg-transpare absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <img src="hubsensee.png" alt="hubsensee" class="w-10 py-5">
+          <a href="#home" class="font-bold absolute mx-16 top-7 text-2xl text-black ">Hubsensee</a>
+        </div>
+        <div class="flex items-center px4"> 
+          <button id="menu" name="menu" type="button" class="block absolute right-4 lg:hidden">
+            <span class="menu-line transition duration-300 ease-in-out origin-top-left"></span>
+            <span class="menu-line transition duration-300 ease-in-out"></span>
+            <span class="menu-line transition duration-300 ease-in-out origin-bottom-left"></span>
+          </button>
+
+          <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none " >
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="#home"  class="text-base text-black py-2 mx-8 flex group-hover:text-blue">Home</a>
+              </li>
+              <li class="group">
+                <a href="#fitur"  class="text-base text-black py-2 mx-8 flex group-hover:text-blue">Fitur</a>
+              </li>
+              <li class="grou">
+                <a href="#harga"  class="text-base text-black py-2 mx-8 flex group-hover:text-blue">Harga</a>
+              </li>
+              <li class="group">
+                <a href="#trail"  class="text-base text-black py-2 mx-8 flex group-hover:text-blue">Request Trial</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+  <section id="home" class="pt-36">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full self-center px-4 lg:w-1/2">
+          <h1 class="text-tua text-base font-semibold md:text-xl lg:text-2xl">Sistem Absensi dan Monitoring untuk <span class="text-biru block font-bold text-4xl lg:text-5xl"> Sekolah dan Kampus Inovatif</span></h1>
+          <p class="font-medium text-slate-500 mb-10 leading-relaxed">Hubsensee menggantikan metode absensi konvensional dengan sistem absensi terintegrasi yang inovatif, transparan, dan efisien sehingga dapat meningkatkan kedisiplinan guru dan siswa.</p>
+
+          <a href="#" class="text-base font-semibold text-white bg-teal-500 py-3 px-8 rounded-l-lg hover:shadow-md hover:opacity-80 transition duration-300 ease-in-out">Pelajari</a>
+          <a href="#" class="text-base font-semibold text-white bg-tua py-3 px-8 rounded-r-lg hover:shadow-lg hover:bg-sky-900 transition duration-300 ease-in-out">Request Demo</a>
+       
+        </div>
+        <div class="w-full self-end px-4 lg:w-1/2">
+          <div class="relative mt-10 lg:mt-9 lg:right-0">
+            <img src="Gambar2.png" alt="Monitoring" class="max-w-full mx-auto">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 380" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(165.025, 239.149, 250.767, 1)" offset="0%"></stop><stop stop-color="rgba(165.025, 192.677, 250.767, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,266L40,234.3C80,203,160,139,240,133C320,127,400,177,480,215.3C560,253,640,279,720,297.7C800,317,880,329,960,291.3C1040,253,1120,165,1200,145.7C1280,127,1360,177,1440,215.3C1520,253,1600,279,1680,297.7C1760,317,1840,329,1920,285C2000,241,2080,139,2160,82.3C2240,25,2320,13,2400,6.3C2480,0,2560,0,2640,31.7C2720,63,2800,127,2880,145.7C2960,165,3040,139,3120,114C3200,89,3280,63,3360,101.3C3440,139,3520,241,3600,240.7C3680,241,3760,139,3840,95C3920,51,4000,63,4080,107.7C4160,152,4240,228,4320,240.7C4400,253,4480,203,4560,190C4640,177,4720,203,4800,177.3C4880,152,4960,76,5040,76C5120,76,5200,152,5280,177.3C5360,203,5440,177,5520,177.3C5600,177,5680,203,5720,215.3L5760,228L5760,380L5720,380C5680,380,5600,380,5520,380C5440,380,5360,380,5280,380C5200,380,5120,380,5040,380C4960,380,4880,380,4800,380C4720,380,4640,380,4560,380C4480,380,4400,380,4320,380C4240,380,4160,380,4080,380C4000,380,3920,380,3840,380C3760,380,3680,380,3600,380C3520,380,3440,380,3360,380C3280,380,3200,380,3120,380C3040,380,2960,380,2880,380C2800,380,2720,380,2640,380C2560,380,2480,380,2400,380C2320,380,2240,380,2160,380C2080,380,2000,380,1920,380C1840,380,1760,380,1680,380C1600,380,1520,380,1440,380C1360,380,1280,380,1200,380C1120,380,1040,380,960,380C880,380,800,380,720,380C640,380,560,380,480,380C400,380,320,380,240,380C160,380,80,380,40,380L0,380Z"></path></svg>
+  </section>
+
+
+  <section id="fitur" class="py-12 sm:py-24 bg-cyan-200 px-4 ">
+    <div class="w-full sm:w-8/12 mx-auto flex flex-col sm:flex-row justify-evenly gap-5">
+        <div class="sm:w-4/12">
+            <div class="bg-beige h-full border  rounded-l-full p-8 shadow-lg hover:ring-inset hover:ring-pink hover:ring-4">
+                <h2 class="font-bold text-2xl text-right my-2 text-abu">Cepat, Aman, Akurat</h2>
+                <p class="text-bata text-right">Sistem absensi dengan menggunakan scan wajah atau scan QRCode untuk guru dan siswa.</p>
+            </div>
+        </div>
+        <div class="sm:w-4/12">
+           
+          <div class="bg-beige h-full border rounded-full p-8 shadow-lg hover:ring-inset hover:ring-pink hover:ring-4">  
+                <h2 class="font-bold text-center text-2xl my-2 text-abu">Akses Jadwal Belajar</h2>
+                <p class=" text-bata text-center">Hubsensee memudahkan siswa dan guru untuk mengakses jadwal dan jurnal mengajar </p>
+            </div>
+        </div>
+        <div class="sm:w-4/12 ">
+            <div class="bg-beige h-full border rounded-r-full p-8 shadow-lg hover:ring-inset hover:ring-pink hover:ring-4">  
+                <h2 class="font-bold text-2xl my-2 text-abu ">Mudah Diintegrasikan</h2>
+                <p class=" text-bata">Hubungkan Hubsensee dengan Moodle, e-Rapor atau sistem informasi sekolah dengan Open API</p>
+            </div>
+        </div>
+    </div>
+</section>
+<svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 300" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(243.936, 238.138, 236.276, 1)" offset="0%"></stop><stop stop-color="rgba(241.659, 240.57, 238.163, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,30L34.3,25C68.6,20,137,10,206,40C274.3,70,343,140,411,180C480,220,549,230,617,200C685.7,170,754,100,823,65C891.4,30,960,30,1029,50C1097.1,70,1166,110,1234,120C1302.9,130,1371,110,1440,90C1508.6,70,1577,50,1646,75C1714.3,100,1783,170,1851,190C1920,210,1989,180,2057,145C2125.7,110,2194,70,2263,80C2331.4,90,2400,150,2469,165C2537.1,180,2606,150,2674,120C2742.9,90,2811,60,2880,60C2948.6,60,3017,90,3086,125C3154.3,160,3223,200,3291,190C3360,180,3429,120,3497,115C3565.7,110,3634,160,3703,185C3771.4,210,3840,210,3909,195C3977.1,180,4046,150,4114,150C4182.9,150,4251,180,4320,185C4388.6,190,4457,170,4526,145C4594.3,120,4663,90,4731,100C4800,110,4869,160,4903,185L4937.1,210L4937.1,300L4902.9,300C4868.6,300,4800,300,4731,300C4662.9,300,4594,300,4526,300C4457.1,300,4389,300,4320,300C4251.4,300,4183,300,4114,300C4045.7,300,3977,300,3909,300C3840,300,3771,300,3703,300C3634.3,300,3566,300,3497,300C3428.6,300,3360,300,3291,300C3222.9,300,3154,300,3086,300C3017.1,300,2949,300,2880,300C2811.4,300,2743,300,2674,300C2605.7,300,2537,300,2469,300C2400,300,2331,300,2263,300C2194.3,300,2126,300,2057,300C1988.6,300,1920,300,1851,300C1782.9,300,1714,300,1646,300C1577.1,300,1509,300,1440,300C1371.4,300,1303,300,1234,300C1165.7,300,1097,300,1029,300C960,300,891,300,823,300C754.3,300,686,300,617,300C548.6,300,480,300,411,300C342.9,300,274,300,206,300C137.1,300,69,300,34,300L0,300Z"></path></svg>
+
+<section id="home" class="pt-2">
+  <div class="container">
+    <div class="flex flex-wrap">
+      
+      <div class="w-full self-center px-4 lg:w-1/2">
+        <h1 class="text-biru font-bold text-3xl mb-10 text-center  lg:text-5xl ">Notifikasi Aktifitas untuk Wali/Orangtua Siswa</h1>
+        <p class="font-medium text-center text-slate-500 mb-10 leading-relaxed">Kepala Sekolah, guru, wali kelas dan orangtua siswa dapat memantau aktifitas siswa secara realtime dengan dukungan notifikasi via Whatsapp dan Email.</p>
+
+      </div>
+      <div class="w-full self-end px-4 lg:w-1/2">
+        <div class="relative mt-10 lg:mt-9 lg:right-0">
+          <img src="hp.jpg" alt="Monitoring" class="max-w-full mx-auto"> 
+          <span class="absolute botton-0 -z-10" >
+            <img src="" width="400" height="400" alt="bola" >
+          </span>
+        </div>
+      </div>          
+</section>
+
+
+<section id="harga" class="bg-gradient-to-b from-sky-600 to-emerald-400 py-24 px-4" >
+<div class="w-full sm:w-8/12 mx-auto flex flex-col sm:flex-row justify-evenly gap-5">
+  <div class="border-2 p-8 rounded-lg border-black border-opacity-50 hover:border-opacity-100">
+    <p class="text-2xl my-2 flex flex-row gap-2">
+      <span class="text-bata font-serif">Hubsensee Premium<span>
+    </p>
+    <h2 class="text-4xl font-bold text-red">Rp 7.500</h2>
+    <p class="my-1 text-beige font-semibold">per user per bulan</p>
+    <ul class="text-white text-xl my-6 font-mono">
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Perangkat Hubsensee (1 per 50 siswa)</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Absensi untuk siswa dan guru mengajar</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Jurnal mengajar untuk guru</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Laporan harian, mingguan, dan bulanan</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Monitoring untuk orangtua / wali via Whatsapp Notification</span>
+      </li>
+    </ul>
+  </div>
+  <div class="border-2 p-8 rounded-lg border-black border-opacity-50 hover:border-opacity-100">
+    <p class="text-2xl my-2 flex flex-row gap-2">
+      <svg width="55px" height="55px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="4.096"><path d="M512 512m-480 0a480 480 0 1 0 960 0 480 480 0 1 0-960 0Z" fill="#f5efad"></path><path d="M691.2 441.6L512 179.2c-6.4-6.4-19.2-6.4-25.6 0l-179.2 256c-102.4 147.2-6.4 364.8 172.8 371.2h38.4c179.2-6.4 275.2-217.6 172.8-364.8z" fill="#ffdd00"></path><path d="M608 524.8l-128 160c-6.4 6.4-12.8 0-12.8-6.4l12.8-83.2c0-6.4 0-6.4-6.4-6.4H377.6c-6.4-6.4-6.4-12.8 0-12.8L512 409.6c6.4-6.4 12.8 0 12.8 6.4l-25.6 89.6c0 6.4 6.4 6.4 12.8 6.4h96c6.4 0 6.4 6.4 0 12.8z" fill="#FFFFFF"></path></g><g id="SVGRepo_iconCarrier"><path d="M512 512m-480 0a480 480 0 1 0 960 0 480 480 0 1 0-960 0Z" fill="#f5efad"></path><path d="M691.2 441.6L512 179.2c-6.4-6.4-19.2-6.4-25.6 0l-179.2 256c-102.4 147.2-6.4 364.8 172.8 371.2h38.4c179.2-6.4 275.2-217.6 172.8-364.8z" fill="#ffdd00"></path><path d="M608 524.8l-128 160c-6.4 6.4-12.8 0-12.8-6.4l12.8-83.2c0-6.4 0-6.4-6.4-6.4H377.6c-6.4-6.4-6.4-12.8 0-12.8L512 409.6c6.4-6.4 12.8 0 12.8 6.4l-25.6 89.6c0 6.4 6.4 6.4 12.8 6.4h96c6.4 0 6.4 6.4 0 12.8z" fill="#FFFFFF"></path></g></svg>
+      <span class="text-yellow-300 m-3 font-serif">Hubsensee Pro<span>
+    </p>
+    <h2 class="text-4xl font-bold text-red">Rp 10.000</h2>
+    <p class="my-1 text-beige">per user per bulan</p>
+    <ul class="text-white text-xl font-mono my-6">
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="60px" height="60px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M511.6 69.5c-243.1 0-440.9 197.8-440.9 440.9 0 243.1 197.8 440.9 440.9 440.9 243.1 0 440.9-197.8 440.9-440.9 0-243.1-197.8-440.9-440.9-440.9z m0 829.9c-214.5 0-389.1-174.5-389.1-389s174.5-389 389.1-389c214.5 0 389.1 174.5 389.1 389-0.1 214.5-174.6 389-389.1 389z m191.2-266.8H320.4c-21.9 0-33.6 25.1-20.1 42.4 49 62.9 125.4 103.5 211.3 103.5 86 0 162.3-40.5 211.3-103.5 13.4-17.3 1.7-42.4-20.1-42.4zM446.4 407.1c0-9.8-5.6-18.8-14.3-23.2l-138.3-69.2c-12.8-6.4-28.4-1.2-34.8 11.6-6.4 12.8-1.2 28.4 11.6 34.8l91.9 46-91.9 46c-12.8 6.4-18 22-11.6 34.8 4.5 9.1 13.7 14.3 23.2 14.3 3.9 0 7.9-0.9 11.6-2.8l138.3-69.2c8.8-4.3 14.3-13.3 14.3-23.1z m317.7-80.7c-6.4-12.8-22-18-34.8-11.6L591 383.9c-8.8 4.4-14.3 13.4-14.3 23.2 0 9.8 5.6 18.8 14.3 23.2l138.3 69.2c3.7 1.9 7.7 2.8 11.6 2.8 9.5 0 18.7-5.3 23.2-14.3 6.4-12.8 1.2-28.4-11.6-34.8l-91.9-46 91.9-46c12.9-6.5 18.1-22 11.6-34.8z" fill="#FCA128"></path></g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">1 Perangkat Hubsensee per kelas siswa</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Absensi untuk siswa dan guru mengajar</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Jurnal mengajar untuk guru</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Monitoring kedisiplinan siswa</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Integrasi Moodle dan E-Rapor</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="60px" height="60px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M511.6 69.5c-243.1 0-440.9 197.8-440.9 440.9 0 243.1 197.8 440.9 440.9 440.9 243.1 0 440.9-197.8 440.9-440.9 0-243.1-197.8-440.9-440.9-440.9z m0 829.9c-214.5 0-389.1-174.5-389.1-389s174.5-389 389.1-389c214.5 0 389.1 174.5 389.1 389-0.1 214.5-174.6 389-389.1 389z m191.2-266.8H320.4c-21.9 0-33.6 25.1-20.1 42.4 49 62.9 125.4 103.5 211.3 103.5 86 0 162.3-40.5 211.3-103.5 13.4-17.3 1.7-42.4-20.1-42.4zM446.4 407.1c0-9.8-5.6-18.8-14.3-23.2l-138.3-69.2c-12.8-6.4-28.4-1.2-34.8 11.6-6.4 12.8-1.2 28.4 11.6 34.8l91.9 46-91.9 46c-12.8 6.4-18 22-11.6 34.8 4.5 9.1 13.7 14.3 23.2 14.3 3.9 0 7.9-0.9 11.6-2.8l138.3-69.2c8.8-4.3 14.3-13.3 14.3-23.1z m317.7-80.7c-6.4-12.8-22-18-34.8-11.6L591 383.9c-8.8 4.4-14.3 13.4-14.3 23.2 0 9.8 5.6 18.8 14.3 23.2l138.3 69.2c3.7 1.9 7.7 2.8 11.6 2.8 9.5 0 18.7-5.3 23.2-14.3 6.4-12.8 1.2-28.4-11.6-34.8l-91.9-46 91.9-46c12.9-6.5 18.1-22 11.6-34.8z" fill="#FCA128"></path></g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Custom format laporan</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Monitoring untuk orangtua / wali via Whatsapp Notification</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <defs> <path id="check-a" d="M4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L1.90917969,5.46118164 C1.5186554,5.85170593 0.885490417,5.85170593 0.494966125,5.46118164 C0.104441833,5.07065735 0.104441833,4.43749237 0.494966125,4.04696808 L4.29289322,0.292893219 Z"></path> <path id="check-c" d="M10.7071068,13.2928932 C11.0976311,13.6834175 11.0976311,14.3165825 10.7071068,14.7071068 C10.3165825,15.0976311 9.68341751,15.0976311 9.29289322,14.7071068 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L2.41421356,5 L10.7071068,13.2928932 Z"></path> </defs> <g fill="none" fill-rule="evenodd" transform="rotate(-90 11 7)"> <g transform="translate(1 1)"> <mask id="check-b" fill="#ffffff"> <use xlink:href="#check-a"></use> </mask> <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#check-a"></use> <g fill="#FFA0A0" mask="url(#check-b)"> <rect width="24" height="24" transform="translate(-7 -5)"></rect> </g> </g> <mask id="check-d" fill="#ffffff"> <use xlink:href="#check-c"></use> </mask> <use fill="#000000" fill-rule="nonzero" xlink:href="#check-c"></use> <g fill="#0011ff" mask="url(#check-d)"> <rect width="24" height="24" transform="translate(-6 -4)"></rect> </g> </g> </g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Laporan harian, mingguan, dan bulanan</span>
+      </li>
+      <li class="flex flex-col mb-4 sm:mb-4 sm:flex-row sm:items-center items-start">
+        <svg width="60px" height="60px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M511.6 69.5c-243.1 0-440.9 197.8-440.9 440.9 0 243.1 197.8 440.9 440.9 440.9 243.1 0 440.9-197.8 440.9-440.9 0-243.1-197.8-440.9-440.9-440.9z m0 829.9c-214.5 0-389.1-174.5-389.1-389s174.5-389 389.1-389c214.5 0 389.1 174.5 389.1 389-0.1 214.5-174.6 389-389.1 389z m191.2-266.8H320.4c-21.9 0-33.6 25.1-20.1 42.4 49 62.9 125.4 103.5 211.3 103.5 86 0 162.3-40.5 211.3-103.5 13.4-17.3 1.7-42.4-20.1-42.4zM446.4 407.1c0-9.8-5.6-18.8-14.3-23.2l-138.3-69.2c-12.8-6.4-28.4-1.2-34.8 11.6-6.4 12.8-1.2 28.4 11.6 34.8l91.9 46-91.9 46c-12.8 6.4-18 22-11.6 34.8 4.5 9.1 13.7 14.3 23.2 14.3 3.9 0 7.9-0.9 11.6-2.8l138.3-69.2c8.8-4.3 14.3-13.3 14.3-23.1z m317.7-80.7c-6.4-12.8-22-18-34.8-11.6L591 383.9c-8.8 4.4-14.3 13.4-14.3 23.2 0 9.8 5.6 18.8 14.3 23.2l138.3 69.2c3.7 1.9 7.7 2.8 11.6 2.8 9.5 0 18.7-5.3 23.2-14.3 6.4-12.8 1.2-28.4-11.6-34.8l-91.9-46 91.9-46c12.9-6.5 18.1-22 11.6-34.8z" fill="#FCA128"></path></g></svg>
+        <span class="ml-2 text-center sm:text-left w-11/12">Custom integrasi sistem internal instansi</span>
+      </li>
+    </ul>
+  </div>
+    </p>
+  </div>
+</div>
+</section> 
+
+<section id="sekolah">
+  <div class=" mx-auto bg-cover h-96 bg-center flex" style="background-image: url(./dist/img/sek.png);">
+    <div class="w-[500px]  h-[300px] bg-white/25 backdrop-blur-sm m-auto">
+    <div class="m-auto">
+      <h1 class="text-center my-6 text-2xl text-gray-500 ">Dipercaya Oleh</h1>
+      <div class="flex flex-row  mx-5 my-20 justify-evenly ">
+        <img src="https://hubsensee.com/build/assets/pib_logo-41204579.png" class="mx-auto w-16">
+        <img src="https://hubsensee.com/build/assets/smansaku_logo-db2051dd.png" class="mx-auto w-16">
+        <img src="https://hubsensee.com/build/assets/smk_pandawa_logo-c0fa7924.png" class="mx-auto w-16">
+    </div>
+    </div>
+  </div>
+</section>
+
+<section id="trail ">
+  <div class=" px-4 w-full">
+    <h2 class="font-bold text-4xl font-serif text-red ">Coba Hubsensee Hari Ini</h2>
+    <p class="my-5 font-semibold">Nikmati berbagai macam fitur Hubsensee secara gratis selama 1 bulan</p>
+    <div class=" py-8 px-4">
+    <a href="#" class="text-base font-semibold mx-auto  bg-teal-500 text-beige py-4 px-8 rounded-lg hover:shadow-md hover:opacity-80 transition duration-300 ease-in-out text-right">Request Trial</a>
+  </div>
+  </div>
+</section>
+  
+<footer id="feature" class="py-12 sm:py-24 px-4 bg-gray-300 font-mono ">
+  <div class="w-full sm:w-8/12 mx-auto flex flex-col sm:flex-row justify-evenly gap-5">
+      <div class="sm:w-4/12 font-semibold">
+          Hubsensee dikembangkan dengan oleh <a href="#home" class="text-blue hover:text-beige ">Hookigroup</a>
+      </div>
+      <div class="sm:w-4/12 font-mono">
+          <h1 class="text-xl font-semibold">Hubsensee Apps</h1>
+            <ul class="mt-2">
+              <li class="mt-2">
+                <a href="#sekolah" class="text-blue hover:text-red ">Hubsensee SMAN 1 Kuta</a>
+              </li>
+              <li class="mt-2">
+                <a href="#sekolah" class="text-blue hover:text-red">Hubsensee SMK Pandawa</a>
+              </li>
+              <li class="mt-2">
+                <a href="#sekolah" class="text-blue hover:text-red">Hubsensee Politeknik Internasional Bali</a>
+              </li>
+            </ul>
+        </div>
+        <div class="sm:w-4/12 h-full font-mono">
+          <h3 class="text-xl font-semibold">Find Us On Social Media</h3>
+            <ul class="mt-2">
+              <li class="mt-2">
+                <a href="#fitur" class="text-blue hover:text-cyan-900 ">@hubsensee</a>
+              </li>
+        </div>
+        </div>
+      </footer>
+    
+  <script src="dist/js/script.js" > </script>
+</body>
+</html>
